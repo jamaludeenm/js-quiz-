@@ -51,9 +51,7 @@
 		   range=parseInt(rangeele.value),
 		   randomnumber1,randomnumber2;
 		   
-		   if(operation !== 'divide'){
-			   
-			   resetproblems();
+		  
 			   for(let i=1;i<=16;i++){
 				   randomnumber1=generaterandomnumber(range);
 				   randomnumber2=generaterandomnumber(range);
