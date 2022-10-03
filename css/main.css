@@ -21,7 +21,13 @@ button{
 	border:solid 2px black;
 	border-radius:20px;
 	padding:15px;
-	margin-bottom:5px;
+	margin:15px;
 	display:block;
+	justify-content:center;
+	
+}
+.problems{
+	display:flex;
+	flex-wrap:wrap;
 	justify-content:center;
 }
